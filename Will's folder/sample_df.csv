@@ -15,7 +15,6 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 897489,5/12/2000,FL,Clearwater,F,Florida Dept. of Agriculture,Family entertainment center,recreation,go-kart,Go-kart,go kart,0,1,0,U,Trans. for back pain,neck/back injury,0,Body pain (normal motion),FALSE,FALSE,FALSE,0,2000,"Clearwater, FL"
 897495,3/27/2000,FL,Miami,P,Florida Dept. of Agriculture,Carnival or rental,amusement ride,cars & track rides,Track ride,dark ride,0,1,11,M,"Trans. for stitches, stood up fell out","Lac.forehead, 11 yo male 3 stitches",0,Fall: ejection/fall from ride,FALSE,FALSE,FALSE,0,2000,"Miami, FL"
 897502,2/20/2000,FL,Sanford,P,Florida Dept. of Agriculture,Carnival or rental,amusement ride,cars & track rides,Bumper car,bumper cars,0,1,0,U,Trans./washer&screw fell on patron,2nd deg. burns,0,Injured by foreign object,TRUE,FALSE,FALSE,0,2000,"Sanford, FL"
-897505,2/13/2000,FL,Tampa,P,Florida Dept. of Agriculture,Carnival or rental,amusement ride,other attraction,Walk-through,fun house,0,1,0,U,trans/fell entering fh revolving tunnel,L wrist/arm,0,Fall: in climb or play area,FALSE,FALSE,FALSE,0,2000,"Tampa, FL"
 897509,2/13/2000,FL,Dania Bch.,F,Florida Dept. of Agriculture,Family entertainment center,recreation,go-kart,Go-kart,go kart,0,1,50,F,50yof lost control/hit/belt broke,Unk,0,Collision: patron-controlled vehicles,FALSE,FALSE,FALSE,0,2000,"Dania Bch., FL"
 898168,7/1/2000,IL,Gurnee,F,Illinois Department of Labor,Amusement park,amusement ride,coaster,Coaster - steel,inverted coaster,Bolliger & Mabillard,1,15,F,"After getting off ***, patron complained that she could not put any weight on her leg.  She stated that ""the car made a turn and her legs went the other way"".  Ride owner says that the girl told medical personnel she had a benign tumor in her right femur.",Right leg could not bear weight.  Transported to hospital.,0,Body pain (normal motion),FALSE,FALSE,FALSE,No investigation was conducted.,2000,"Gurnee, IL"
 898183,7/13/2000,MD,Largo,F,Maryland Division of Labor & Industry,Amusement park,recreation,go-kart,Go-kart,go kart,0,1,0,F,0,0,0,Unknown (not enough info),FALSE,FALSE,FALSE,0,2000,"Largo, MD"
@@ -47,7 +46,6 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 900808,5/18/2001,TX,Dallas,F,Texas Dept. of Insurance,Family entertainment center,recreation,go-kart,Go-kart,go kart,Shaller Engineering,1,28,M,Avoiding a car spun out and ran into rail,Bruise on neck and chest,0,Collision: go-kart or bumper car hit stationary object,FALSE,FALSE,FALSE,0,2001,"Dallas, TX"
 900834,5/27/2001,TX,El Paso,F,Texas Dept. of Insurance,Amusement park,amusement ride,spinning,Paratrooper-type,Paratrooper,Frank Hrubetz Co.,1,25,F,Fell off ride seat,0,0,"Fall: patron fell from seat, but not carrier",FALSE,FALSE,FALSE,0,2001,"El Paso, TX"
 900866,6/7/2001,TX,Dallas,F,Texas Dept. of Insurance,Family entertainment center,recreation,go-kart,Go-kart,go kart,Shaller Engineering,1,60,M,Coming out of pits and hit rail,Sprained left wrist,0,Collision: go-kart or bumper car hit stationary object,FALSE,FALSE,FALSE,0,2001,"Dallas, TX"
-900901,6/17/2001,TX,Houston,F,Texas Dept. of Insurance,Amusement park,amusement ride,other attraction,Sky ride/ski lift,sky ride,0,1,0,F,Struck knee on pole,Pain,0,Impact: hit something within ride vehicle,FALSE,FALSE,FALSE,0,2001,"Houston, TX"
 900981,7/25/2001,TX,Lubbock,F,Texas Dept. of Insurance,Family entertainment center,amusement ride,water ride,Bumper boat,bumper boats,0,1,7,F,Small frame little girl got her leg under the bottom side of the boat motor causing a burn on her skin.  Burn appeared 1.5' diamater.,Burn,0,Burn (includes friction burn),FALSE,FALSE,FALSE,Mother called and said daughter did not go to doctor and is ok.,2001,"Lubbock, TX"
 901055,10/7/2001,TX,N. Houston,F,Texas Dept. of Insurance,Family entertainment center,recreation,go-kart,Go-kart,go kart,0,1,12,F,Guest hit by kart 12 on road course when he stopped because of a wreck on the road course.,Redness,0,Collision: patron-controlled vehicles,FALSE,FALSE,FALSE,"Treated with ice pack, EMS transport/hospital",2001,"N. Houston, TX"
 901072,11/24/2001,TX,Houston South,F,Texas Dept. of Insurance,Family entertainment center,recreation,go-kart,Go-kart,go kart,"Formula K Raceway, Inc.",1,6,M,Guest Guest was driving in family kart when another kart going the wrong way hit their kart straight-on.,Pain,0,Collision: patron-controlled vehicles,FALSE,FALSE,FALSE,Treated with EMS transport/hospital.,2001,"Houston South, TX"
@@ -61,14 +59,11 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 905802,7/5/2000,NJ,Orlando,P,New Jersey Dept. of Community Affairs,Carnival or rental,amusement ride,cars & track rides,Bumper car,bumper cars,0,1,11,M,Subject riding in car was bumped by another car. His head whipped back causing him to have neck pain.,Pain in neck,0,Collision: patron-controlled vehicles,FALSE,FALSE,FALSE,Inadvertent Rider Mishap,2000,"Orlando, NJ"
 905821,7/4/2000,NJ,Orlando,P,New Jersey Dept. of Community Affairs,Carnival or rental,amusement ride,spinning,Himalaya-type,Himalaya,0,1,8,M,"Subject was on the ride with 3 other children, other children shifted into subject as ride gained speed.",Left hip bruise,0,Collision: patrons collided within vehicle,FALSE,FALSE,FALSE,Inadvertent Rider Mishap,2000,"Orlando, NJ"
 905893,7/1/2000,NJ,Orlando,P,New Jersey Dept. of Community Affairs,Carnival or rental,recreation,play equipment,Slide,dry slide,0,1,5,F,"Guest was sliding down and trying to hold on, receiving a burn.","Friction burn on 5th finger, right hand",0,Burn (includes friction burn),FALSE,FALSE,FALSE,Inadvertent Rider Mishap,2000,"Orlando, NJ"
-905917,6/29/2000,NJ,Seaside Heights,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,other attraction,Walk-through,fun house,Owens Trailers Inc.,1,36,F,"Patron came down slide with her 2 small children, when she went to get up she twisted her right ankle.",Swollen right ankle,0,Fall: in climb or play area,FALSE,FALSE,FALSE,Inadvertent Rider Mishap,2000,"Seaside Heights, NJ"
 906001,6/23/2000,NJ,Seaside Heights,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,coaster,Coaster - steel,wild mouse,"Miler Coaster, Inc.",1,11,M,"Sitting in back seat of car in station, bar came down and scraped right knee.",Scrape to right knee,0,Load/Unload: hit or pinched by restraint,FALSE,FALSE,FALSE,Inadvertent Rider Mishap,2000,"Seaside Heights, NJ"
 906066,6/17/2000,NJ,Englishtown,P,New Jersey Dept. of Community Affairs,Carnival or rental,recreation,inflatable,Inflatable slide,Titanic Slide,Cutting Edge Creations,1,10,F,She was going down the slide and she stated that her leg twisted back under her.,Right leg hurt below knee,0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,Inadvertent Rider Mishap,2000,"Englishtown, NJ"
 906462,8/28/2001,NJ,Jackson,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,spinning,Swing ride,Wave Swinger,Zierer,1,8,M,Patron bumped head on lap bar while entering the seat.,Head Cut,0,Load/Unload: hit or pinched by restraint,FALSE,FALSE,FALSE,Inadvertent Rider Mishap,2001,"Jackson, NJ"
 906814,7/30/2001,NJ,Seaside Heights,F,New Jersey Dept. of Community Affairs,Amusement park,water park,water slide,Water slide - undefined,waterslide,0,1,10,M,Patron was riding the *** and his face hit the top of the slide resulting in a laceration to his upper lip and chipped his left front tooth.,Chipped Tooth,0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,Inadvertent Rider Mishap,2001,"Seaside Heights, NJ"
 907143,7/4/2001,NJ,Atlantic City,F,New Jersey Dept. of Community Affairs,Family entertainment center,recreation,go-kart,Go-kart,go kart,"Formula K Raceway, Inc.",1,20,F,"Driver hit rail in rear of track, claims she was bumped. Patron got out of car Double Seater car and walked to single both cars taken from track, ride was stopped. two girls taken to hospital for check up.",Leg Pain,0,Collision: patron-controlled vehicles,FALSE,FALSE,FALSE,Inadvertent Rider Mishap,2001,"Atlantic City, NJ"
-907163,7/3/2001,NJ,Ocean City,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,other attraction,Walk-through,fun house,Hollingsworth (ADCO),1,7,M,"Patron tripped climbing the moving staircase to the 2nd floor, he appeard to put his hands out in front to catch himself and the force appeared to dislocate or break his arm just behind his wrist.",Possible broken Arm,0,Fall: in climb or play area,FALSE,FALSE,FALSE,Inadvertent Rider Mishap,2001,"Ocean City, NJ"
-907183,7/1/2001,NJ,Seaside Heights,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,other attraction,Walk-through,Persian Camel,KMMS Inc.,1,44,F,Patron stated the railing came loose causing her to fall back injuring her right arm and lumbar area,Lower back pain,0,Equipment failure,TRUE,FALSE,FALSE,Product failure,2001,"Seaside Heights, NJ"
 909248,9/22/2000,CA,Anaheim,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,cars & track rides,Track ride,dark ride,In-house,1,4,M,"Child fell from moving vehicle (family dark ride w/spinning cars) onto floor where he was struck and pinned by following car, and was dragged for an indeterminate length of time before the vehicles came to a stop.","Serious internal injuries not limited to the following:  fractured pelvis, fractured coccyx, ruptured diaphragm, lacerated spleen, global brain damage.",https://saferparksdata.org/sites/default/files/accident_reports/CA_909248.pdf,Fall: ejection/fall from ride,FALSE,TRUE,FALSE,"DOSH found that the most significant causal contributor to the extent and severity of injuries was the fact that the child was pinned under the rear vehicle after he fell out of the front vehicle.  DOSH concluded that the child was improperly seated next to the open side and that the lap bar was not fully lowered prior to dispatch.  DOSH ordered guards installed under the ride vehicles, closures for the open doorways on the cars, and improvements in operator training.",2000,"Anaheim, CA"
 909260,10/5/2001,CA,Anaheim,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,cars & track rides,Track ride,dark ride,In-house,1,29,F,Lap bar jammed guest's right elbow.,"Pain, numbness, and tingling to arm.  Treated at ***.",0,Load/Unload: hit or pinched by restraint,FALSE,FALSE,FALSE,0,2001,"Anaheim, CA"
 909274,8/16/2001,OH,Aurora,F,Ohio Dept. of Agriculture,Water park,amusement ride,spinning,Sizzler/scrambler,Scrambler,Eli Bridge Co.,1,12,M,Child slipped and broke leg.,Patron admitted to hospital with broken leg.,0,Load/Unload: scrape or stumble,FALSE,FALSE,FALSE,Ride re-inspected and okay.  Conclusion:  patron error.,2001,"Aurora, OH"
@@ -99,7 +94,6 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 909700,6/15/2003,TX,ANTHONY,F,Texas Dept. of Insurance,Water park,water park,water slide,Water slide - undefined,waterslide,0,1,14,F,Hit head on slide,"Pain, possible concussion",0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,Supplement,2003,"ANTHONY, TX"
 909703,6/3/2003,TX,ANTHONY,F,Texas Dept. of Insurance,Water park,water park,water slide,Water slide - undefined,waterslide,WhiteWater West Industries Ltd.,1,50,M,Laceration to elbow when riding ***. Possibly could require stitches.,Laceration,0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,Suplement,2003,"ANTHONY, TX"
 909721,6/25/2003,TX,ARLINGTON,F,Texas Dept. of Insurance,Amusement park,amusement ride,water ride,Boat ride,boat ride,0,1,39,F,Slipped entering boat.,Sprain,0,Load/Unload: scrape or stumble,FALSE,FALSE,FALSE,No confirmed medical.,2003,"ARLINGTON, TX"
-909723,5/30/2003,TX,EL PASO,F,Texas Dept. of Insurance,Amusement park,amusement ride,other attraction,Sky ride/ski lift,Sky Glider,"O.D. Hopkins Associates, Inc.",1,54,M,Struck by moving object.,Ride seat bumped into his left knee.,0,Impact: person hit by ride,FALSE,FALSE,FALSE,0,2003,"EL PASO, TX"
 909741,5/11/2003,TX,ARLINGTON,F,Texas Dept. of Insurance,Amusement park,amusement ride,coaster,Coaster - wooden,wooden coaster,Roller Coaster Corporation of America,1,33,M,Struck chest against side of car.,Pain,0,Impact: hit something within ride vehicle,FALSE,FALSE,FALSE,No confirmed medical.,2003,"ARLINGTON, TX"
 909753,6/22/2003,TX,ARLINGTON,F,Texas Dept. of Insurance,Amusement park,amusement ride,cars & track rides,Car ride,antique cars,Arrow Dynamics,1,7,M,Child stood up as operator started car causing child to fall.,Chipped,0,Fall: ejection/fall from ride,FALSE,FALSE,FALSE,No confirmed medical.,2003,"ARLINGTON, TX"
 909757,6/27/2003,TX,AMARILLO,F,Texas Dept. of Insurance,Amusement park,amusement ride,water ride,Shoot the chute,shoot the chute,"O.D. Hopkins Associates, Inc.",1,8,M,Guest was on the bridge waiting for wave to hit; fell when the wave hit.,Cut,0,Injured in queue or exit,FALSE,FALSE,FALSE,0,2003,"AMARILLO, TX"
@@ -110,8 +104,6 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 909844,7/10/2003,TX,ARLINGTON,F,Texas Dept. of Insurance,Water park,water park,water slide,Tube slide,tube slide,Surf Coaster,1,22,F,Fell off raft and hit slide,Strain,0,"Fall: patron fell off inner tube, mat or board",FALSE,FALSE,FALSE,0,2003,"ARLINGTON, TX"
 909857,11/15/2003,TX,ARLINGTON,F,Texas Dept. of Insurance,Amusement park,amusement ride,spinning,Spinning cups/tubs,tea cups,0,1,8,M,Guest struck finger against ride while exiting.,Avulsion,0,Load/Unload: hit or pinched by restraint,FALSE,FALSE,FALSE,no confirmed outside medical,2003,"ARLINGTON, TX"
 909864,2/15/2003,NJ,Ocean View,F,New Jersey Dept. of Community Affairs,Water park,water park,aquatic play,Aquatic play area,water play structure,In-house,1,6,U,Child was running and fell face first hitting chin on floor.,Chin hit floor,0,Load/Unload: scrape or stumble,FALSE,FALSE,FALSE,0,2003,"Ocean View, NJ"
-909868,4/20/2003,NJ,Pt. Pleasant Beach,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,other attraction,Walk-through,fun house,Piper Productions,1,0,U,"Patron and her father entered the mirror maze, patron walked into the glass wall causing the injury to the forehead.",Forehead hit glass,0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,0,2003,"Pt. Pleasant Beach, NJ"
-909883,5/17/2003,NJ,N. Wildwood,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,other attraction,Walk-through,fun house,Show Me Manufacturing Co.,1,13,U,"Guest stated that while walking through the panels of glass on the first level, he turned into one of the panels bumping his face into one of the panels. Guest came to first aid where it was determined that the guest had chipped one of his twoo front teet",Face hit panel and chipped tow front teeth,0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,0,2003,"N. Wildwood, NJ"
 909897,5/29/2003,NJ,Jackson,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,coaster,Coaster - steel,Custom looping coaster,Arrow Dynamics,1,17,U,Pt. Claimed to ohave poss. Broke her shoulder bone 2 weeks prior to her visit to the park. After riding on ride her shoulder began to hurt again.,Shoulder pain,0,Body pain (normal motion),FALSE,FALSE,FALSE,0,2003,"Jackson, NJ"
 909900,5/31/2003,NJ,Jackson,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,spinning,Wheel w/spinning cars,Chaos,"Chance Manufacturing, Inc.",1,20,U,"Guest was found on bench in park sitting, complaining of neck and back discomfort and stiffness.",Neck and back pain with stiffness,0,Body pain (normal motion),FALSE,FALSE,FALSE,0,2003,"Jackson, NJ"
 909905,6/1/2003,NJ,N. Wildwood,F,New Jersey Dept. of Community Affairs,Amusement park,recreation,play equipment,Slide,dry slide,Aero-Mar Plastics,1,5,U,Guest came down the Giant Slide with grandmother. Guest states that they were going down the slide quickly and made contact with the yellow pad at the bottom of slide. The injured guest also hit her face on the top of the pad.,Hit face and buttocks on slide,0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,Investigated by State Officials,2003,"N. Wildwood, NJ"
@@ -126,16 +118,13 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 909999,7/1/2003,NJ,Beach Haven,F,New Jersey Dept. of Community Affairs,Water park,water park,float attraction,Lazy river,lazy river,In-house,1,8,U,Patron was walking in a tube in the river and noticed the cut on his foot after exiting the river.,Foot laceration,0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,0,2003,"Beach Haven, NJ"
 910010,7/7/2003,NJ,Piscataway,F,New Jersey Dept. of Community Affairs,Family entertainment center,recreation,go-kart,Go-kart,go kart,Pacer,1,12,U,Was driving around track when hit on the side.,0,0,Collision: patron-controlled vehicles,FALSE,FALSE,FALSE,0,2003,"Piscataway, NJ"
 910021,7/2/2003,NJ,Seaside Heights,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,coaster,Coaster - steel,Hi Miler,"Miler Coaster, Inc.",1,9,U,Patron was riding the coaster and bumped his head on ride. Small sized bump over left eye.,Bump over left eye,0,Impact: hit something within ride vehicle,FALSE,FALSE,FALSE,0,2003,"Seaside Heights, NJ"
-910025,7/3/2003,NJ,Seaside Heights,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,other attraction,Walk-through,fun house,Owens Trailers Inc.,1,14,U,"Patron stated she was coming down the slide of the glass house. She slid over her left hand, twisting it, her wrist.",Twisted hand and wrist,0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,0,2003,"Seaside Heights, NJ"
 910031,7/12/2003,NJ,Wildwood,F,New Jersey Dept. of Community Affairs,Amusement park,water park,aquatic play,Aquatic play area,rope swing,In-house,1,40,U,Guest let go of the rope to enter the deep pool and felt his finger catch the rope.,Finger injury,0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,0,2003,"Wildwood, NJ"
 910035,7/2/2003,NJ,Ocean City,F,New Jersey Dept. of Community Affairs,Water park,water park,water slide,Tube slide,tube slide,Surf Coaster,1,10,U,Guest was sliding down the gang slide in to the activity pool when her tube flipped over. She fell into the side wall hitting her shoulder on the wall. Guest walked to first aid and complained of a sore shoulder and neck. Guest treated in first aid and tr,Sore shoulder and neck,0,"Fall: patron fell off inner tube, mat or board",FALSE,FALSE,FALSE,Investigated by State Officials,2003,"Ocean City, NJ"
 910036,7/13/2003,NJ,Jackson,F,New Jersey Dept. of Community Affairs,Amusement park,recreation,go-kart,Go-kart,go kart,"J & J Amusements, Inc",1,19,U,"Guest state while getting into go cart, another guest (name unknown) hit her left foot with her go cart.",Foot injury,0,Impact: person hit by ride,FALSE,FALSE,FALSE,Investigated by State Officials,2003,"Jackson, NJ"
 910079,7/21/2003,NJ,Beach Haven,F,New Jersey Dept. of Community Affairs,Water park,water park,aquatic play,Aquatic play area,water play structure,SCS Interactive,1,8,U,"Patron was going down small brown slide and hit his left foot on something and cut in big toe, his pinky toe, and next toe.","Cut big toe, pinky toe and next toe",0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,0,2003,"Beach Haven, NJ"
 910105,7/24/2003,NJ,Clementon,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,spinning,Tilt-a-whirl/waltzer,Tilt-a-Whirl,Sellner,1,6,U,Patron's guardian states patron was getting on ride when foot got caught twisting right foot.,Twisted right foot,0,Load/Unload: scrape or stumble,FALSE,FALSE,FALSE,Investigated by State Officials,2003,"Clementon, NJ"
 910154,8/11/2003,NJ,N. Wildwood,F,New Jersey Dept. of Community Affairs,Amusement park,recreation,go-kart,Go-kart,Formula K,"Formula K Raceway, Inc.",1,12,U,Guest states that he was hit from behind while he was driving his go kart around the track near turn B.  The other guest that hit him was an acquaintance of the guest's.  He states he jammed his right arm into the steering wheel.,Arm injury,0,Collision: patron-controlled vehicles,FALSE,FALSE,FALSE,0,2003,"N. Wildwood, NJ"
-910197,8/26/2003,NJ,Seaside Park,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,other attraction,Walk-through,fun house,Show Me Manufacturing Co.,1,4,U,Fell outside in front of ride. Lost balance and cut back on cotter pin under slide. Non ride related. Mother called 911-EMT arrived and cleaned cut.,Cut on back,0,Load/Unload: scrape or stumble,FALSE,FALSE,FALSE,Investigated by State Officials,2003,"Seaside Park, NJ"
 910210,8/31/2003,NJ,Atlantic City,F,New Jersey Dept. of Community Affairs,Family entertainment center,recreation,go-kart,Go-kart,go kart,"Formula K Raceway, Inc.",1,24,U,"Driver was leaving pit area and did not turn onto track, drove straight for about 8 ft. into tires and rail. Her boyfriend ask for ambulance, then she did, EMT came she walk off pier to boardwalk and  or ambvulamce. Car #6 was taken off ttrack and complet",0,0,Collision: go-kart or bumper car hit stationary object,FALSE,FALSE,FALSE,0,2003,"Atlantic City, NJ"
-910221,9/7/2003,NJ,Seaside Heights,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,other attraction,Walk-through,Persian Camel,KMMS Inc.,1,4,U,"While child was climbing down noving stairs, child tripped off stairs and hit bridge of nose on the outer banister.",Hit bridge of nose,0,Fall: in climb or play area,FALSE,FALSE,FALSE,Investigated by State Officials,2003,"Seaside Heights, NJ"
 910226,9/13/2003,NJ,Bayville,F,New Jersey Dept. of Community Affairs,Amusement park,recreation,go-kart,Go-kart,go kart,Thriller,1,14,U,"Pulled into pit area was bumped by another car. Patron's head went back hitting back of seat. That night went to emergency room, then docotr's office next day. No accidents reported that Saturday night.",Head injury,0,Collision: patron-controlled vehicles,FALSE,FALSE,FALSE,0,2003,"Bayville, NJ"
 910239,10/18/2003,NJ,Ocean View,F,New Jersey Dept. of Community Affairs,Water park,water park,aquatic play,Aquatic play area,water play structure,In-house,1,11,U,Climbing steps in sub slipped and hit back of head.,Hit back of head,0,Load/Unload: scrape or stumble,FALSE,FALSE,FALSE,0,2003,"Ocean View, NJ"
 910309,1/30/2002,NJ,Freehold,F,New Jersey Dept. of Community Affairs,"Mall, store or restaurant",amusement ride,spinning,Carousel,2-storey carousel,Bertazzon 3B SLR,1,2,F,"Patron, 2 years old, fell forward and hit her forehead.",Bruise on forehead,0,Impact: hit something within ride vehicle,FALSE,FALSE,FALSE,Investigated by State Officals,2002,"Freehold, NJ"
@@ -161,7 +150,6 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 910650,7/5/2002,NJ,N. Wildwood,F,New Jersey Dept. of Community Affairs,Amusement park,recreation,go-kart,Go-kart,Formula K,"Formula K Raceway, Inc.",1,9,F,"Guest states while riding as passenger in 2 person go cart, she was struck on her left side of vehicle by another guest. Guest felt pain left wrist.","Pain, unknown",0,Collision: patron-controlled vehicles,FALSE,FALSE,FALSE,0,2002,"N. Wildwood, NJ"
 910661,6/30/2002,NJ,N. Wildwood,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,coaster,Coaster - steel,RC48,Pinfari,1,7,M,"Guest states during ride, when train came into brake station, guest's head went forward and backward and struck the back of his head on padded seat back.",Soft tissue,0,Impact: hit something within ride vehicle,FALSE,FALSE,FALSE,0,2002,"N. Wildwood, NJ"
 910662,6/21/2002,NJ,N. Wildwood,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,coaster,Coaster - steel,RC48,Pinfari,1,0,F,"Guest states car came to stop in brake station, gust moved back in her seat striking the back her head on headrest.",Contusion,0,Impact: hit something within ride vehicle,FALSE,FALSE,FALSE,0,2002,"N. Wildwood, NJ"
-910681,6/24/2002,NJ,Wildwood,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,other attraction,Walk-through,fun house,Minotaur,1,12,F,Guest stated she was lost in maze. She decided to crawl under maze panels and scraped her back on bottom of panel.,Abrasion/friction burn,0,Burn (includes friction burn),FALSE,FALSE,FALSE,0,2002,"Wildwood, NJ"
 910693,7/12/2002,NJ,Ocean City,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,water ride,Flume ride,flume ride,"O.D. Hopkins Associates, Inc.",1,5,M,Mother stated patron bumped his head on something while riding the Logh Flume.,Laceration to Forehead,0,Impact: hit something within ride vehicle,FALSE,FALSE,FALSE,0,2002,"Ocean City, NJ"
 910699,6/25/2002,NJ,Jackson,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,spinning,Enterprise,Enterprise,Schwarzkopf  Rides,1,12,M,Patron stated he got his fingers caught in the door when pulling it down.,Right finger discomfort,0,Load/Unload: hit or pinched by restraint,FALSE,FALSE,FALSE,0,2002,"Jackson, NJ"
 910713,7/10/2002,NJ,Jackson,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,coaster,Coaster - steel,Custom looping coaster,Arrow Dynamics,1,35,F,Patron stated she had neck pain after exiting the ride.,Neck pain,0,Body pain (normal motion),FALSE,FALSE,FALSE,0,2002,"Jackson, NJ"
@@ -195,7 +183,6 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 911158,8/26/2002,NJ,Pt. Pleasant,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,cars & track rides,Bumper car,bumper cars,Bertazzon 3B SLR,1,8,F,"As stated by patron, she was havbing trouble controling a bumper car.  The ride operator went to assist morgan, while she was helping morgan another car struck patron's car.",Neck and Head Pain,0,Collision: patron-controlled vehicles,FALSE,FALSE,FALSE,0,2002,"Pt. Pleasant, NJ"
 911161,8/27/2002,NJ,Pt. Pleasant,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,spinning,Plane/jet/helicopter,Mini Jet,Zamperla,1,6,M,Patron was exiting the red plane #6 when his shirt got caught on the handle bar and he fell on his knee.,Bump on Forehead,0,Load/Unload: scrape or stumble,FALSE,FALSE,FALSE,0,2002,"Pt. Pleasant, NJ"
 911167,8/11/2002,NJ,Piscataway,F,New Jersey Dept. of Community Affairs,Family entertainment center,recreation,go-kart,Go-kart,go kart,Pacer,1,0,F,Patron was stopped due to accident in front of her when she was hit from behind by another car.,Neck and Head,0,Collision: patron-controlled vehicles,FALSE,FALSE,FALSE,0,2002,"Piscataway, NJ"
-911176,8/1/2002,NJ,Seaside Heights,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,other attraction,Sky ride/ski lift,sky ride,Borvig Ski Lifts,0,0,U,Patron jumped off of Sky Ride onto MTV roof nake.  No injury.,0,0,Fall: ejection/fall from ride,FALSE,FALSE,FALSE,0,2002,"Seaside Heights, NJ"
 911190,8/9/2002,NJ,Jackson,F,New Jersey Dept. of Community Affairs,Amusement park,recreation,trampoline,Bungee trampoline,Euro Bungy,EuroBungy,1,0,U,Patron stated while jumping felt neck pain.,Neck pain after jumping,0,Body pain (normal motion),FALSE,FALSE,FALSE,0,2002,"Jackson, NJ"
 911194,8/19/2002,NJ,Jackson,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,water ride,Flume ride,Hydro Flume,Arrow Dynamics,1,11,M,Patron stated during cou4se of ride he stuck his hand outside of boat and caught between boat and side wall.,Abrasion to right wrist,0,Impact: extremity hit something outside carrier,FALSE,FALSE,FALSE,0,2002,"Jackson, NJ"
 911195,8/20/2002,NJ,Jackson,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,water ride,Flume ride,flume ride,Arrow Dynamics,3,23,M,Boat was bumped by another boat.,Neck pain and ankle pain.,0,Collision: operator-controlled vehicles,FALSE,FALSE,FALSE,0,2002,"Jackson, NJ"
@@ -213,9 +200,6 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 911295,8/25/2002,NJ,Atlantic City,F,New Jersey Dept. of Community Affairs,Family entertainment center,recreation,go-kart,Go-kart,go kart,0,1,13,F,On Go-Karts hit from side hitting his head on inside roof. Car #2 removed from track.,Cut over left eye,0,Collision: patron-controlled vehicles,FALSE,FALSE,FALSE,0,2002,"Atlantic City, NJ"
 911328,7/8/2004,CA,Anaheim,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,coaster,Coaster - steel,Mine Train,Arrow Dynamics,5,10,M,"While trying to remove one train from operation, operator error resulted in the collision of two trains with guests on board.","Five guests were injured.  Three were transported to the hospital, treated and released.",https://saferparksdata.org/sites/default/files/accident_reports/CA_911328.pdf,Collision: operator-controlled vehicles,FALSE,TRUE,FALSE,"State investigators determined that the ride operator, who had only been on the job for three days, failed to follow procedure.  The state ordered that the ride operator be retrained, and that the ride's control system be revised to assure that cars carrying passengers do not enter block zones occupied by other cars.",2004,"Anaheim, CA"
 911774,10/27/2002,WV,Fairmont,F,"West Virginia Division of Labor, Safety Section",Family entertainment center,recreation,go-kart,Go-kart,go kart,0,1,13,M,Driver lost control of go-kart and hit wall.  Driver said steering didn't work.,Chin and below eye hit steering wheel causing cut below eye.  Victim transported to hospital.,0,Collision: go-kart or bumper car hit stationary object,FALSE,FALSE,FALSE,0,2002,"Fairmont, WV"
-911784,5/31/2004,NC,Mocksville,U,North Carolina Dept. of Labor,Unknown,amusement ride,spinning,Paratrooper-type,Paratrooper,Dartron Industries,1,16,U,R key came out of the pin.  Pin worked out and struck child in the head.,Pin hit child in head.,0,Equipment failure,TRUE,FALSE,FALSE,0,2004,"Mocksville, NC"
-911785,6/28/2003,NC,Charlotte,U,North Carolina Dept. of Labor,Unknown,amusement ride,coaster,Coaster - unidentified,unidentified coaster,0,1,7,U,Child hit stomach on lap bar when ride jerked.,Stomach injury,0,Impact: hit something within ride vehicle,FALSE,FALSE,FALSE,0,2003,"Charlotte, NC"
-911792,10/1/2004,NC,Salem,U,North Carolina Dept. of Labor,Unknown,amusement ride,spinning,Swing ride,Wave Swinger,Zierer,1,18,F,Walk plate was dislodged and lying on top of other plates.  Child fell and grabbed the plate.  Hit her foot.,Foot injury.,0,Equipment failure,TRUE,FALSE,FALSE,0,2004,"Salem, NC"
 911850,8/29/2004,WI,Lake Delton,F,"Wisconsin Dept. of Commerce, Safety and Building Division",Family entertainment center,recreation,go-kart,Go-kart,go kart,0,1,0,M,Father driving double go-kart ran into railing.,Son was taken by car to hospital.  Seatbelt caused bruise.,0,Collision: go-kart or bumper car hit stationary object,FALSE,FALSE,FALSE,0,2004,"Lake Delton, WI"
 911856,7/18/2004,WI,Green Bay,F,"Wisconsin Dept. of Commerce, Safety and Building Division",Amusement park,amusement ride,cars & track rides,Train/tram,miniature train,Miniature Train Company,1,0,M,"Small stone came up while child was riding the train, hitting himon the outside of his left eye.",Small cut to outside of eye.,0,Injured by foreign object,FALSE,FALSE,FALSE,0,2004,"Green Bay, WI"
 911862,6/27/2004,WI,Lakewood,F,"Wisconsin Dept. of Commerce, Safety and Building Division",Family entertainment center,recreation,go-kart,Go-kart,go kart,Johnson Karts,1,0,M,"Attendant was crossing the go-kart track to help a kart that had spun out.  As he was crossing the track he yelled at the person who caused the other kart to spin out.  The driver (child) swerved a great distance and struck the attendant, who went over the kart and landed on the track.  Another kart ran over his left arm.","Laceration to top of head, multiple abrasions to arms, side.  Ambulance called to transport to hospital.",0,Employee injured,FALSE,FALSE,TRUE,0,2004,"Lakewood, WI"
@@ -360,7 +344,6 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 916050,5/27/2007,NJ,South Toms River,F,New Jersey Dept. of Community Affairs,Amusement park,recreation,go-kart,Go-kart,go kart,Webber Engineering Co.,1,33,M,"Ride was over, cars were parking, Kevin got out of car after being told to stay in car until all cars are parked. He then walked between parked cars and was hurt when another car hit parked cars.",0,0,Collision: patron-controlled vehicles,FALSE,FALSE,FALSE,"Misbehavior of Rider, Rider Hit by Others",2007,"South Toms River, NJ"
 916062,6/2/2007,NJ,Ocean City,F,New Jersey Dept. of Community Affairs,Amusement park,amusement ride,spinning,Hanglider ride,Cliffhanger,Dartron Industries,1,12,F,"Angelina was laying in the seat. When Vitoria was getting into the car she tried to pull herself up by grabbing the bar. This caused the bar to hit Agelina on the forehead. She was given ice packs, gauze, antiseptic wipes. She was also treated by local EMT's.",0,0,Load/Unload: hit or pinched by restraint,FALSE,FALSE,FALSE,Rider Hit by Others,2007,"Ocean City, NJ"
 916064,6/8/2007,NJ,Wayne,P,New Jersey Dept. of Community Affairs,Carnival or rental,amusement ride,spinning,Carousel,36' Carousel,Allan Herschell Company,1,0,M,"Child was exiting carousel and felt shock when he touched the ride from the ground. The incident was reported to me by the committee and *** Police. Upon investigation, I found that one motor on the Dragon Wagon had shorted and was leaking voltage (41 volts) to ground. I disconnected the motor and began testing the all equipment that connected to the same generato to look for voltage. All equipment was found to be clear of any voltage and the situation was returned to normal. The police informed me they had called the State Hotline and an inspector was coming. We did not operate either ride until an inspector was present. Inspector placed the dragon wagon out of service until the motor could be replaced. The cjild was checked by *** EMT and left under his own power. There was no medical treatment or transport given.",Electrical shock.,0,Electrical shock,TRUE,FALSE,FALSE,Product failure,2007,"Wayne, NJ"
-916080,6/22/2007,NJ,Williamstown,P,New Jersey Dept. of Community Affairs,Carnival or rental,amusement ride,other attraction,Walk-through,Castlemania,Childress,1,3,M,Went into castle jumped into ball pit. Pt. went to climb rope and could not put weight on his leg. Applied ice.,0,0,Body pain (normal motion),FALSE,FALSE,FALSE,Inadvertent Rider Mishap,2007,"Williamstown, NJ"
 916093,6/23/2007,NJ,York,P,New Jersey Dept. of Community Affairs,Carnival or rental,amusement ride,pendulum,Flying carpet ride,Ali Baba,A.R.M. Inc.,1,10,M,"Injured was about to ride the Rainbow (Ali Baba). As the lap bar was lowered, he somehow got his hand caught. Ride was shut down for inspection and the NJ DCA was notified to the incident. Ride was put back in service with DCA approx. at 6:40 pm as per Dave Hewitt, DCA Inspector.",0,0,Load/Unload: hit or pinched by restraint,FALSE,FALSE,FALSE,Inadvertent Rider Mishap,2007,"York, NJ"
 916112,7/12/2007,NJ,Marlton,P,New Jersey Dept. of Community Affairs,Carnival or rental,recreation,inflatable,Inflatable slide,4 in 1 Combo,The Inflatable Store,1,2,F,"As per witness, injured slid down slide in 4-1 combo and attempted to dismount slide prior to reaching bottom. Child leaned forward and rolled over onto her arm at the bottom of slide.",0,0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,Inadvertent Rider Mishap,2007,"Marlton, NJ"
 916120,7/20/2007,NJ,Seaside Heights,F,New Jersey Dept. of Community Affairs,Amusement park,water park,water slide,Tube slide,tube slide,Waterworld Products Inc.,1,0,M,Pt. riolled over in duble tubes.,0,0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,Loss of Control by Rider,2007,"Seaside Heights, NJ"
@@ -383,7 +366,6 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 916521,8/24/2007,TX,Arlington,F,Texas Dept. of Insurance,Water park,water park,water slide,Mat slide,mat slide,Wave Tek,1,2,M,Contusions,Ran into path of sled,0,Collision: patrons collided (participatory),FALSE,FALSE,FALSE,0,2007,"Arlington, TX"
 916746,8/29/2006,WI,Green Bay,F,"Wisconsin Dept. of Commerce, Safety and Building Division",Amusement park,recreation,play equipment,Slide,dry slide,Magic Mountain,1,0,M,Patron rubbed backs of both hands against slide lane while sliding down slide.,Friction burn to hands,0,Burn (includes friction burn),FALSE,FALSE,FALSE,0,2006,"Green Bay, WI"
 916760,5/26/2006,WI,Green Bay,F,"Wisconsin Dept. of Commerce, Safety and Building Division",Amusement park,amusement ride,spinning,Roundabout,kiddie roundabout,Theel Mfg.,1,0,M,Patron (child) stood up while ride was running and fell out on exterior side of ride. He was bumped by the jeep behind him as ride operator had stopped the ride.,Small scrape and bruise to middle of child's back,0,Fall: ejection/fall from ride,FALSE,FALSE,FALSE,0,2006,"Green Bay, WI"
-916798,8/16/2006,OK,Wewoka,P,Oklahoma Dept. of Labor,Carnival or rental,amusement ride,other attraction,Simulator,Astroliner,"Wisdom Industries, Ltd.",1,0,M,"A seat came loose during the ride, causing some children to fall out of the seat.  One child was hit in the head by the seat.",Concussion,0,Equipment failure,TRUE,FALSE,FALSE,"Investigators found that 2 of the 4 bolts that normally hold the seat secure were still intact.  The two bolts on the outside were loose with no lock nuts.  It appeared the bolts had pulled through the fiberglass bottom of the ride.  The ride owner blamed the children for breaking the ride.  The owner was unable to produce any maintenance, training, or pre-opening inspection records for the ride.",2006,"Wewoka, OK"
 916861,9/11/2006,FL,Orlando,F,Florida Dept. of Agriculture,Sports or recreation facility,recreation,challenge activity,Water ski tow,water ski tow,0,1,25,M,"A 25 year old male was attempting a jump up on an A-Frame slider located in water; on the water ride, *** when he lost balance, and fell receiving a cut to his shin.",Cut to shin,0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,PATRON-LOST BALANCE,2006,"Orlando, FL"
 916916,9/4/2006,FL,Jacksonville,F,Florida Dept. of Agriculture,Family entertainment center,recreation,go-kart,Go-kart,go kart,0,1,29,F,Twenty nine year old female sustained injury to her shouolder when she was hit from behind by another kart entering pit area.,Shoulder injury,0,Collision: patron-controlled vehicles,FALSE,FALSE,FALSE,PATRON-IMPROPER OPERATION,2006,"Jacksonville, FL"
 917063,7/2/2006,FL,Jacksonville,F,Florida Dept. of Agriculture,Family entertainment center,water park,water slide,Water slide - undefined,waterslide,0,1,37,M,Thirty seven year old male was injured while on water slide.,0,0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,PATRON-LOST CONTROL,2006,"Jacksonville, FL"
@@ -500,9 +482,6 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 918754,7/26/2004,CA,Los Angeles,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,coaster,Coaster - wooden,wooden coaster,Dinn,1,45,F,Guest complained of neck and back pain after riding ***. She requested to be sent to the hospital.,neck and back pain,0,Body pain (normal motion),FALSE,FALSE,FALSE,0,2004,"Los Angeles, CA"
 918762,9/9/2006,CA,Los Angeles,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,coaster,Coaster - steel,looping coaster,Schwarzkopf  Rides,1,42,F,"Guest stated that after riding she felt pain in her neck. She contacted security and requested to be taken to First Aid, where she requested to be sent to the hospital.",neck pain,0,Body pain (normal motion),FALSE,FALSE,FALSE,0,2006,"Los Angeles, CA"
 918789,4/24/2005,CA,Los Angeles,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,coaster,Coaster - steel,looping coaster,Arrow Dynamics,1,17,M,Guest walked in to first aid and claimed to have been stung by a bee while on ***. He was sent to the hospital at his request.,bee sting,0,Injured by foreign object,FALSE,FALSE,FALSE,0,2005,"Los Angeles, CA"
-918815,11/21/2005,CA,Los Angeles,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,other attraction,Simulator,motion simulator,Intamin AG,1,37,M,"Guest walked in to the *** First Aid Station with complaints of low-back pain and a headache. A *** nurse assessed the guest, who stated that he was recently involved in a motorcycle accident that left him with back and head injuries as well as visible bodily wounds on his arms. It appears that he did not have any treatment post-accident. The nurse's assessment indicated elevated blood pressure. The guest then became ill. Paramedics were dispatched and based upon their assessment the guest was transported to the hospital. The guest did not associate his injury/illness to the ride upon arrival at first aid. No information was provided as to dome or vehicle. His wife associated his injury/illness to the ride during a discussion with *** supervisor related to payment of the hospital fees. Guest was released at approximately 7:30 PM.","lower back pain and headache, illness",0,Body pain (normal motion),FALSE,FALSE,FALSE,0,2005,"Los Angeles, CA"
-918816,10/16/2004,CA,Los Angeles,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,other attraction,Simulator,motion simulator,Intamin AG,1,20,F,"Guest stated that prior to entering the ride vehicle she felt her knee ""pop-out"". Guest stated that she has a history of this which normally corrects itself by sitting. She thought it would correct itself before the ride was over but it did not.",knee dislocation,0,Hyperextension or dislocation,FALSE,FALSE,FALSE,0,2004,"Los Angeles, CA"
-918817,8/19/2005,CA,Los Angeles,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,other attraction,Simulator,motion simulator,Intamin AG,1,23,F,Guest complained of chest pains that increased after riding attraction.,chest pains,0,Body pain (normal motion),FALSE,FALSE,FALSE,0,2005,"Los Angeles, CA"
 918869,3/15/2003,CA,Los Angeles,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,water ride,Shoot the chute,shoot the chute,Vekoma,1,40,F,"Boat 7, row 4, seat 5. Guest was on lift 2 during an evacuation and began complaining of chest pains as boat was moved from the lift. Guest refused treatment and decided to go to hospital. At end of incident guest began to complain of neck pain.","chest pains, neck pain",0,Unscheduled stop,TRUE,FALSE,FALSE,0,2003,"Los Angeles, CA"
 918884,8/17/2005,CA,Los Angeles,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,coaster,Coaster - steel,LIM coaster,"Premier Rides, Inc.",1,65,F,"Vehicle 6, row 2, seat 3. At unload guest complained of feeling dizzy and faint.",dizziness,0,Illness or neurological symptoms,FALSE,FALSE,FALSE,0,2005,"Los Angeles, CA"
 918889,7/7/2004,CA,Los Angeles,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,coaster,Coaster - steel,LIM coaster,"Premier Rides, Inc.",1,69,M,"Guest's daughter stated after riding attraction, her father felt chest pains. Vehicle 9, row 1, seat 1.",chest pains,0,Body pain (normal motion),FALSE,FALSE,FALSE,0,2004,"Los Angeles, CA"
@@ -528,7 +507,6 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 919150,6/26/2008,CA,San Dimas,F,California Division of Occupational Safety and Health,Water park,water park,aquatic play,Aquatic play area,water play structure,Amusement Leisure Worldwide,1,4,F,Guest's mother stated that her daughter fell while she was helping her get into the start area for slide #2.,Guest's father stated that they would be taking their daughter to get checked out.,0,Load/Unload: scrape or stumble,FALSE,FALSE,FALSE,0,2008,"San Dimas, CA"
 919164,9/1/2008,CA,San Diego,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,spinning,Spinning cups/tubs,tea cups,I.E. Park,1,6,F,Guest was spinning and fell off to the side and hit floor.,Small laceration and missing baby tooth on lower bite.  Treated at local hospital.,0,"Fall: patron fell from seat, but not carrier",FALSE,FALSE,FALSE,0,2008,"San Diego, CA"
 919176,6/28/2003,CA,Los Angeles,F,California Division of Occupational Safety and Health,Water park,water park,float attraction,Lazy river,lazy river,Aquatic Design Engineering (ADE),1,9,M,"Guest stated that he was trying to climb out of the lazy river at an unauthorized location and, as he tried to climb up, felt a pain in his back.  He continued through the ride and exited.",Pain in back.  Treated at local hospital.,0,Body pain (normal motion),FALSE,FALSE,FALSE,0,2003,"Los Angeles, CA"
-919198,7/15/2008,CA,Los Angeles,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,other attraction,Simulator,motion simulator,Intamin AG,1,68,F,"The guest's family stated that she lost consciousness during the ride.  When the ride ended, her family assisted her from the ride and into the hallway.  Guest's family disclosed that she has a history of heart conditions and wears a pacemaker.",Guest was assessed by paramedics.  It was recommended that she go to the hospital for further evaluation.,0,Illness or neurological symptoms,FALSE,FALSE,FALSE,0,2008,"Los Angeles, CA"
 919238,6/3/2002,CA,Manteca,F,California Division of Occupational Safety and Health,Water park,water park,water slide,Speed slide,speed slide,Pro Slide,1,0,M,Unknown (not stated in report).,Unknown,0,Unknown (not enough info),FALSE,FALSE,FALSE,0,2002,"Manteca, CA"
 919241,6/12/2003,CA,Vallejo,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,coaster,Coaster - steel,steel sitdown coaster,Schwarzkopf  Rides,1,0,U,Patron suffered whiplash from riding coaster.,Whiplash,0,Abrupt stop/drop/lurch,FALSE,FALSE,FALSE,"On August 12, state authorities received two accident reports and one complaint on this ride.  Both accidents (whiplash and loss of conscousness) and the complaint (neck pain) revolved around head motion during the course of this ride.  As a result, the state inspected the ride and issued an order requiring the park to post signs informing patrons of the ride's characteristics while it is in motion.",2003,"Vallejo, CA"
 919248,6/16/2002,CA,Manteca,F,California Division of Occupational Safety and Health,Water park,water park,water slide,Mat slide,mat slide,Hydro Glass Systems,1,0,M,Patron was injured (no further information).,Unknown,0,Unknown (not enough info),FALSE,FALSE,FALSE,0,2002,"Manteca, CA"
@@ -556,7 +534,6 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 919557,6/4/2002,CA,Anaheim,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,water ride,Boat ride,boat ride,Arrow Dynamics,1,44,M,Guest jumped out of the boat after it dispatched and before the first drop because he felt fearful about experiencing shortness of breath and chest pressure.  Park personnel assisted him out of the water.,Park states no apparent injury to guest from exiting the boat.  X-rayed and given intravenous fluid for shortness of breath at local hospital.,0,Fall: ejection/fall from ride,FALSE,FALSE,FALSE,0,2002,"Anaheim, CA"
 919565,4/17/2003,CA,Anaheim,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,water ride,Boat ride,boat ride,Arrow Dynamics,1,61,F,Guest states difficulty breathing and feeling faint during evacuation of ride.  History of high blood pressure and asthma.,"Difficulty breathing, faintness.  Transported to local hospital.",0,Unscheduled stop,FALSE,FALSE,FALSE,0,2003,"Anaheim, CA"
 919590,11/15/2005,CA,Anaheim,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,water ride,Boat ride,boat ride,Arrow Dynamics,1,63,M,"Guest states while exiting the boat, he scraped his leg on the gunnel.",Injury to leg.  Transported to local hospital,0,Load/Unload: scrape or stumble,FALSE,FALSE,FALSE,0,2005,"Anaheim, CA"
-919627,10/4/2005,CA,Anaheim,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,other attraction,Simulator,motion simulator,In-house,1,61,M,Guest stated he felt ill early this morning and worse after riding.  Guest relates history of high cholestrol and a congenital heart defect.,Illness.  Transported to local hospital.,0,Illness or neurological symptoms,FALSE,FALSE,FALSE,0,2005,"Anaheim, CA"
 919647,3/25/2006,CA,Riverside,F,California Division of Occupational Safety and Health,Amusement park,amusement ride,coaster,Coaster - family/kiddie,family/kiddie coaster,"Miler Coaster, Inc.",1,5,M,Patrons father states his son struck his ear on the car and had trouble hearing.,Injury to ear.  Treated by personal physician.,0,Impact: hit something within ride vehicle,FALSE,FALSE,FALSE,0,2006,"Riverside, CA"
 919660,6/19/2002,CA,Chula Vista,F,California Division of Occupational Safety and Health,Water park,water park,water slide,Water slide - undefined,waterslide,WhiteWater West Industries Ltd.,1,11,M,"11-yo guest stated ""toward the end of the ride, I was about to flip over and overcompensated my turn and hit my back on the slide"".",Back injury. Child's father requested that he be taken to the hospital by ambulance.,0,Impact: hit something in participatory attraction,FALSE,FALSE,FALSE,0,2002,"Chula Vista, CA"
 919673,6/13/2004,CA,Fresno,F,California Division of Occupational Safety and Health,Family entertainment center,water park,water slide,Water slide - undefined,waterslide,0,1,0,U,Unknown,Unknown,0,Unknown (not enough info),FALSE,FALSE,FALSE,0,2004,"Fresno, CA"
@@ -608,376 +585,6 @@ acc_id,acc_date,acc_state,acc_city,fix_port,source,bus_type,industry_sector,devi
 920274,6/13/2003,CA,Clovis,F,California Division of Occupational Safety and Health,Water park,water park,water slide,Speed slide,speed slide,0,1,0,U,Unknown,Unknown,0,Unknown (not enough info),FALSE,FALSE,FALSE,0,2003,"Clovis, CA"
 920276,5/22/2007,CA,Clovis,F,California Division of Occupational Safety and Health,Water park,water park,wave device,Wave pool,wave pool,0,1,0,U,Unknown,Unknown,0,Unknown (not enough info),FALSE,FALSE,FALSE,0,2007,"Clovis, CA"
 920312,6/11/2005,CA,Clovis,F,California Division of Occupational Safety and Health,Water park,water park,water slide,Family raft slide,family raft,0,1,0,U,Unknown,Unknown,0,Unknown (not enough info),FALSE,FALSE,FALSE,0,2005,"Clovis, CA"
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,
