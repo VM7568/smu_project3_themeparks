@@ -6,6 +6,32 @@ d3.json("data.json").then( function(data) {
     makeBar(data)
 });
 
+//DID NOT WORK
+
+// var xmlhttp = new XMLHttpRequest();
+// var url = "http://127.0.0.1:5500/init%20web/index.html#/js/data.json";
+// xmlhttp.open("GET",url,true);
+// xmlhttp.send();
+// xmlhttp.onreadystatechange = function(){
+//   if(this.readyState == 4 && this.status == 200){
+//     var data = JSON.parse(this.responseText);
+//     $('#example').DataTable({
+//       //ajax: 'data/objects.txt',
+//       "data":data.data,
+//       "columns": [
+//           { data: 'acc_id' },
+//           { data: 'acc_date' },
+//           { data: 'acc_state' },
+//           { data: 'acc_city' },
+//           { data: 'device_type' },
+//           { data: 'year' },
+//       ],
+//     });
+//   }
+// }
+
+
+
 function makeBar(data){
   let year = 2007;
   let sub = data.filter(x=> x.year == year);
