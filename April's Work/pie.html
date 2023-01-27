@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dropdown Events</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    <h2>Injury Analysis</h2>
+    <p>Numbers on hover reflect the numer of injuries in selected year.</p>
+    <!-- Your code here -->
+    <label for="Year">Year</label>
+    <select id="Year">
+        <option value="2000">2000</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+        <option value="2005">2005</option>
+        <option value="2006">2006</option>
+        <option value="2007">2007</option>
+        <option value="2008">2008</option>
+    </select>
+    <div id="pie"></div>
+
+    <p>Data Sources:<br />
+        <ul>
+            <li>
+                <a href="https://data.worldbank.org/indicator/NE.CON.GOVT.ZS">General government final consumption expenditure (% of GDP)</a>
+            </li>
+            <li>
+                <a href="https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS">Government expenditure on education, total (% of GDP)</a>
+            </li>
+            <li>
+                <a href="https://data.worldbank.org/indicator/SH.XPD.GHED.GD.ZS">Domestic general government health expenditure (% of GDP)</a>
+            </li>
+            <li>
+                <a href="https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS">Research and development expenditure (% of GDP)</a>
+            </li>
+            <li>
+                <a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.CD">GDP (current US$)</a>
+            </li>
+        </ul>
+    </p>
+    <script src="piedata.js"></script>
+    <script src="pie.js"></script>
+</body>
+
+</html>

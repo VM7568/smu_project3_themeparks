@@ -1,79 +1,140 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+<head> -->
+	<!-- Load plotly.js into the DOM
+	<script src='https://cdn.plot.ly/plotly-2.18.0.min.js'></script>
+	<script src="https://d3js.org/d3.v4.js"></script>
+</head>
+
+<body>
+	<div id='myDiv'></div>
+</body> -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Roller Coaster Accidents</title>
-  <script src="https://d3js.org/d3.v6.min.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/lumen/bootstrap.min.css" integrity="sha384-H4X+4tKc7b8s4GoMrylmy2ssQYpDHoqzPa9aKXbDwPoPUA3Ra8PA5dGzijN+ePnH" crossorigin="anonymous">
-</head>
-<body>
-    <!-- Start of navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 25px;">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarColor02">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
-                <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
-                <a class="dropdown-item" href="visualizations/temp.html">Temperature</a>
-                <a class="dropdown-item" href="visualizations/wind.html">Wind Speed</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="comparison.html">Comparison</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="data.html">Data</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- End of navbar -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Roller Coaster Accidents</h1>
-        <p>We Love RollerCoasters, Do you?</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
-        <div class="well">
-          <h5>"should be a filter box" Instance of Accident</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Demographic Info</h3>
-          </div>
-          <div id="sample-metadata" class="panel-body"></div>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <div id="bar"></div>
-      </div>
-      <div class="col-md-5">
-        <div id="gauge"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div id="bubble"></div>
-      </div>
-    </div>
-  </div>
-  <script src="app.js"></script>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <title>Device Category Injury Analysis </title>
+    <style>
+      body {
+        margin: 0px;
+      }
+      .domain {
+        display: none;
+      }
+      .tick line {
+        stroke: #C0C0BB;
+      }
+      .tick text {
+        fill: #8E8883;
+        font-size: 20pt;
+        font-family: sans-serif;
+      }
+      .axis-label {
+        fill: #635F5D;
+        font-size: 40pt;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <svg width="960" height="500"></svg>
+    <script>
+
+      const xValue = d => d.device_category;
+      const xLabel = 'Device Category';
+      const yValue = d => d.num_injured;
+      const yLabel = 'Number of Injuries';
+      const margin = { left: 150, right: 70, top: 20, bottom: 110 };
+
+      const svg = d3.select('svg');
+      const width = svg.attr('width');
+      const height = svg.attr('height');
+      const innerWidth = width - margin.left - margin.right;
+      const innerHeight = height - margin.top - margin.bottom;
+
+      const g = svg.append('g')
+          .attr('transform', `translate(${margin.left},${margin.top})`);
+      const xAxisG = g.append('g')
+          .attr('transform', `translate(0, ${innerHeight})`);
+      const yAxisG = g.append('g');
+
+      xAxisG.append('text')
+          .attr('class', 'axis-label')
+          .attr('x', innerWidth / 2)
+          .attr('y', 90)
+          .text(xLabel);
+
+      yAxisG.append('text')
+          .attr('class', 'axis-label')
+          .attr('x', -innerHeight / 2)
+          .attr('y', -100)
+          .attr('transform', `rotate(-90)`)
+          .style('text-anchor', 'middle')
+          .text(yLabel);
+
+      const xScale = d3.scaleBand().padding(0.95);
+      const yScale = d3.scaleLinear();
+
+      const xAxis = d3.axisBottom()
+        .scale(xScale)
+        .tickPadding(15)
+        .tickSize(-innerHeight);
+
+      const yTicks = 5;
+      const yAxis = d3.axisLeft()
+        .scale(yScale)
+        .ticks(yTicks)
+        .tickPadding(15)
+        .tickFormat(d3.format('.0s'))
+        .tickSize(-innerWidth);
+
+      const row = d => {
+        const netUsersWithCommas = d['Internet Users 31 Mar 2017'];
+        return {
+			device_category: d['Device Category'],
+          netUsers: +netUsersWithCommas.replace(/,/g, '')
+        };
+      };
+
+      const top5 = data => data.slice(0, 5);
+
+      d3.csv('dfgp4.csv', row, data => {
+        data = top5(data);
+        xScale
+          .domain(data.map(xValue))
+          .range([0, innerWidth]);
+
+        yScale
+          .domain(d3.extent(data, yValue))
+          .range([innerHeight, 0])
+          .nice(yTicks);
+
+        g.selectAll('circle').data(data)
+          .enter().append('circle')
+            .attr('cx', d => xScale(xValue(d)) + xScale.bandwidth() / 2)
+            .attr('cy', d => yScale(yValue(d)))
+            .attr('fill', 'black')
+            .attr('fill-opacity', 0.6)
+            .attr('r', 8);
+
+        g.selectAll('rect').data(data)
+          .enter().append('rect')
+            .attr('x', d => xScale(xValue(d)))
+            .attr('y', d => yScale(yValue(d)))
+            .attr('width', d => xScale.bandwidth())
+            .attr('height', d => innerHeight - yScale(yValue(d)))
+            .attr('fill', 'black')
+            .attr('fill-opacity', 0.6);
+
+        xAxisG.call(xAxis);
+        yAxisG.call(yAxis);
+      });
+    </script>
+  </body>
 </html>

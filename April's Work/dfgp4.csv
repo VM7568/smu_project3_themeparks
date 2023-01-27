@@ -1,0 +1,122 @@
+year,device_category,num_injured,perc_injured
+2000,aquatic play,6,0.04
+2000,cars & track rides,11,0.073333333
+2000,coaster,25,0.166666667
+2000,float attraction,4,0.026666667
+2000,go-kart,17,0.113333333
+2000,inflatable,2,0.013333333
+2000,other attraction,12,0.08
+2000,pendulum,6,0.04
+2000,play equipment,5,0.033333333
+2000,spinning,21,0.14
+2000,vertical drop,1,0.006666667
+2000,water ride,12,0.08
+2000,water slide,28,0.186666667
+2001,alpine activity,1,0.005154639
+2001,aquatic play,3,0.015463918
+2001,cars & track rides,24,0.12371134
+2001,challenge activity,2,0.010309278
+2001,coaster,35,0.180412371
+2001,float attraction,2,0.010309278
+2001,go-kart,27,0.139175258
+2001,inflatable,1,0.005154639
+2001,other attraction,8,0.041237113
+2001,pendulum,1,0.005154639
+2001,play equipment,5,0.025773196
+2001,spinning,27,0.139175258
+2001,vertical drop,5,0.025773196
+2001,water ride,12,0.06185567
+2001,water slide,38,0.195876289
+2001,wave device,3,0.015463918
+2002,aquatic play,2,0.0125
+2002,cars & track rides,11,0.06875
+2002,coaster,29,0.18125
+2002,float attraction,2,0.0125
+2002,go-kart,13,0.08125
+2002,inflatable,2,0.0125
+2002,other attraction,1,0.00625
+2002,pendulum,2,0.0125
+2002,play equipment,7,0.04375
+2002,spinning,30,0.1875
+2002,trampoline,1,0.00625
+2002,vertical drop,2,0.0125
+2002,water ride,22,0.1375
+2002,water slide,34,0.2125
+2002,wave device,2,0.0125
+2003,aquatic play,6,0.028985507
+2003,cars & track rides,5,0.024154589
+2003,challenge activity,1,0.004830918
+2003,coaster,14,0.06763285
+2003,float attraction,2,0.009661836
+2003,go-kart,12,0.057971014
+2003,other attraction,10,0.048309179
+2003,pendulum,3,0.014492754
+2003,play equipment,1,0.004830918
+2003,spinning,7,0.033816425
+2003,trampoline,1,0.004830918
+2003,vertical drop,1,0.004830918
+2003,water ride,114,0.550724638
+2003,water slide,28,0.1352657
+2003,wave device,2,0.009661836
+2004,alpine activity,2,0.016949153
+2004,aquatic play,3,0.025423729
+2004,cars & track rides,6,0.050847458
+2004,coaster,35,0.296610169
+2004,float attraction,5,0.042372881
+2004,go-kart,10,0.084745763
+2004,other attraction,2,0.016949153
+2004,pendulum,2,0.016949153
+2004,play equipment,2,0.016949153
+2004,spinning,18,0.152542373
+2004,trampoline,1,0.008474576
+2004,vertical drop,1,0.008474576
+2004,water ride,5,0.042372881
+2004,water slide,26,0.220338983
+2005,aquatic play,5,0.048076923
+2005,cars & track rides,10,0.096153846
+2005,challenge activity,1,0.009615385
+2005,coaster,20,0.192307692
+2005,float attraction,2,0.019230769
+2005,go-kart,6,0.057692308
+2005,inflatable,2,0.019230769
+2005,other attraction,5,0.048076923
+2005,pendulum,2,0.019230769
+2005,spinning,16,0.153846154
+2005,vertical drop,0,0
+2005,water ride,10,0.096153846
+2005,water slide,22,0.211538462
+2005,wave device,3,0.028846154
+2006,aquatic play,2,0.023809524
+2006,cars & track rides,5,0.05952381
+2006,challenge activity,2,0.023809524
+2006,coaster,16,0.19047619
+2006,float attraction,2,0.023809524
+2006,go-kart,11,0.130952381
+2006,inflatable,3,0.035714286
+2006,other attraction,1,0.011904762
+2006,pendulum,2,0.023809524
+2006,play equipment,1,0.011904762
+2006,spinning,16,0.19047619
+2006,vertical drop,0,0
+2006,water ride,6,0.071428571
+2006,water slide,14,0.166666667
+2006,wave device,3,0.035714286
+2007,aquatic play,3,0.037974684
+2007,cars & track rides,4,0.050632911
+2007,coaster,8,0.101265823
+2007,go-kart,6,0.075949367
+2007,inflatable,4,0.050632911
+2007,other attraction,6,0.075949367
+2007,pendulum,3,0.037974684
+2007,spinning,14,0.17721519
+2007,water ride,7,0.088607595
+2007,water slide,22,0.278481013
+2007,wave device,2,0.025316456
+2008,aquatic play,1,0.083333333
+2008,cars & track rides,2,0.166666667
+2008,other attraction,1,0.083333333
+2008,spinning,4,0.333333333
+2008,vertical drop,1,0.083333333
+2008,water ride,1,0.083333333
+2008,water slide,1,0.083333333
+2008,wave device,1,0.083333333

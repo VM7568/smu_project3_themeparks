@@ -1,13 +1,13 @@
 // @ADD YOUR CODE HERE
 
-d3.select("#country").on("change", function() {
-    let country = d3.select("#country").node().value;
-    console.log(country);
-    makePlot(country);
+d3.select("#Year").on("change", function() {
+    let Year = d3.select("#Year").node().value;
+    console.log(Year);
+    makePlot(Year);
 });
 
-function makePlot(country) {
-    let ugh = data[country];
+function makePlot(Year) {
+    let ugh = data[Year];
     let values = Object.values(ugh);
     let labels = Object.keys(ugh);
 
@@ -19,7 +19,7 @@ function makePlot(country) {
     }
 
     let layout = {
-        title: `Donut Chart for ${country}`,
+        title: `Donut Chart for ${Year}`,
         height: 400,
         width: 400,
         showlegend: false
