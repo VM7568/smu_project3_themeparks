@@ -66,8 +66,9 @@ function update(selectedVar) {
       .duration(1000)
         .attr("cx", function(d) { return x(d.device_category); })
         .attr("cy", function(d) { return y(d[selectedVar]); })
-        .attr("r", 8)
-        .attr("fill", "#6495ED");
+        .attr('fill-opacity', 0.6)
+        .attr("r", 16)
+        .attr("fill", "#4633ff");
 
 
   })
