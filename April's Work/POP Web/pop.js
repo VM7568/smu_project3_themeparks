@@ -33,7 +33,7 @@ function update(selectedVar) {
   d3.csv("dfgp3.csv").then( function(data) {
 
     // X axis
-    x.domain(data.map(function(d) { return d.device_category; }))
+    x.domain(data.map(function(d) { return d.business_type; }))
     xAxis.transition().duration(1000).call(d3.axisBottom(x))
 
     // Add Y axis
@@ -49,8 +49,8 @@ function update(selectedVar) {
       .attr("class", "myLine")
       .transition()
       .duration(1000)
-        .attr("x1", function(d) { return x(d.device_category); })
-        .attr("x2", function(d) { return x(d.device_category); })
+        .attr("x1", function(d) { return x(d.business_type); })
+        .attr("x2", function(d) { return x(d.business_type); })
         .attr("y1", y(0))
         .attr("y2", function(d) { return y(d[selectedVar]); })
         .attr("stroke", "grey")
@@ -64,7 +64,7 @@ function update(selectedVar) {
       .join("circle")
       .transition()
       .duration(1000)
-        .attr("cx", function(d) { return x(d.device_category); })
+        .attr("cx", function(d) { return x(d.business_type); })
         .attr("cy", function(d) { return y(d[selectedVar]); })
         .attr('fill-opacity', 0.6)
         .attr("r", 16)
