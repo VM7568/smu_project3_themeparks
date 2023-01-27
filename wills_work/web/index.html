@@ -6,15 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Roller Coaster Accidents</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://d3js.org/d3.v6.js"></script>
   <script src="https://code.highcharts.com/highcharts.js"></script>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/lumen/bootstrap.min.css"
-    integrity="sha384-H4X+4tKc7b8s4GoMrylmy2ssQYpDHoqzPa9aKXbDwPoPUA3Ra8PA5dGzijN+ePnH" crossorigin="anonymous">
+    crossorigin="anonymous">
 
 </head>
 
@@ -22,7 +34,7 @@
   <!-- Start of navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 25px;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Latitude</a>
+      <a class="navbar-brand" href="index.html">Return to Main</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
         aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -83,11 +95,11 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div id="bubble"></div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-6">
         <div class='tableauPlaceholder' id='viz1674611435206' style='position: relative'><noscript><a href='#'><img
                 alt='Dashboard 1 '
                 src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;bu&#47;bubbles_16745247550030&#47;Dashboard1&#47;1_rss.png'
@@ -110,15 +122,33 @@
         <script
           type='text/javascript'>                    var divElement = document.getElementById('viz1674611435206'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '727px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
       </div>
-      <div class="'col-md-4">
-        <div id="scatter" src="web/scatter.js"></div>
-
-      
     </div>
+    <br>
     <div class="row">
-      
+      <div id="lollipop">
+        <!-- Add 2 buttons -->
+        <button onclick="update('var1')">Year 2000</button>
+        <button onclick="update('var2')">Year 2001</button>
+        <button onclick="update('var3')">Year 2002</button>
+        <button onclick="update('var4')">Year 2003</button>
+        <button onclick="update('var5')">Year 2004</button>
+        <button onclick="update('var6')">Year 2005</button>
+        <button onclick="update('var7')">Year 2006</button>
+        <button onclick="update('var8')">Year 2007</button>
+        <button onclick="update('var9')">Year 2008</button>
+
+        <!-- Create a div where the graph will take place -->
       </div>
     </div>
+    <div class="row">
+      <div id="my_dataviz">
+        <script src="pop.js"></script>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
 
   </div>
 
