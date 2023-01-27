@@ -11,12 +11,14 @@ function doWork(data) {
         type: 'bar',
         x: data.map(x => x.device_category),
         y: data.map(x => +x.num_injured),
-
+        marker: {
+            color: '#E76F51'
+        },
         box: {
             visible: true
         },
         line: {
-            color: 'blue',
+            color: 'firebrick',
         },
         meanline: {
             visible: true
