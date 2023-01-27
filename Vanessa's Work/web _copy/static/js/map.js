@@ -1,15 +1,27 @@
 $(document).ready(function () {
+  doWork()
 
-    // Perform a GET request to the query URL.
-    d3.json(map.json).then(function (data) {
-      console.log(data.features);
-      makeMap(data)   // Using the features array sent back in the API data, create a GeoJSON layer, and add it to the map.
-    });
+  // button click
+  $("#filter").on("click", function () {
+    doWork();
+  });  
 });
 
-// helper function
-function onEachFeature(feature, layer) {
-  layer.bindPopup(`<h3>${feature.properties.neighborhood}</h3>`);
+function doWork() {
+    // reset map container
+    $("#mapContainer").empty();
+    $("#mapContainer").append("<div id='map'></div>")
+      // Perform a GET request to the query URL.
+      d3.json('map.json').then(function (data) {
+        console.log(data.features);
+        if($("#selDataset").val() != "All"){
+          data= data.filter(x=> x.device_type == $("#selDataset").val())
+          makeMap(data)
+        }
+        else{
+          makeMap(data)   // Using the features array sent back in the API data, create a GeoJSON layer, and add it to the map.
+        }
+      });
 }
 
 // make map
@@ -25,12 +37,23 @@ function makeMap(data) {
     attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
   });
 
-
-
+  
   // STEP 2: CREATE THE OVERLAY/DATA LAYERS
-  let geoLayer = L.geoJSON(data.features, {
-    onEachFeature: onEachFeature
-  });
+  let incidents = L.markerClusterGroup();
+  let coords = [];
+
+  for (let i = 0; i < data.length; i++) {
+    let incident = data[i];
+
+    
+    let marker = L.marker([incident.latitude, incident.longitude]).bindPopup(`<h1> ${incident.device_type} </h1> <hr> <h3> ${incident.acc_desc} </h3>`);
+    incidents.addLayer(marker)
+
+    coords.push([incident.latitude, incident.longitude]);
+    
+  }
+
+  let heatLayer = L.heatLayer(coords)
 
 
   // STEP 3: CREATE THE LAYER CONTROL OBJECTS
@@ -40,17 +63,17 @@ function makeMap(data) {
     Topography: topo
   };
 
-  // Overlays that can be toggled on or off
+ // Overlays that can be toggled on or off
   let overlayMaps = {
-    Earthquakes: geoLayer
+    Markers: incidents,
+    Heatmap: heatLayer
   };
-
 
   // STEP 4: INITIALIZE MAP
   let myMap = L.map("map", {
     center: [32.6400541, -117.0841955],
-    zoom: 11,
-    layers: [street, geoLayer]
+    zoom: 5,
+    layers: [street, incidents]
   });
 
   // STEP 5: ADD LAYER CONTROL TO MAP
