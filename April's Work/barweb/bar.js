@@ -63,7 +63,7 @@ function update(selectedVar) {
         .attr("width", x.bandwidth())
         .attr("height", d => height - y(d[selectedVar]))
         .attr('fill-opacity', 0.8)
-        .attr("fill", "#A569BD")
+        .attr("fill", "#ff7f50")
   })
 
 }
