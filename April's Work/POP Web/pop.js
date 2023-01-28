@@ -1,8 +1,8 @@
 
 // set the dimensions and margins of the graph
-const margin = {top: 30, right: 30, bottom: 70, left: 60},
-    width = 1260 - margin.left - margin.right,
-    height = 600 - margin.top - margin.bottom;
+const margin = {top: 30, right: 30, bottom: 90, left: 60},
+    width = 1400 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 const svg = d3.select("#my_dataviz")
@@ -34,11 +34,30 @@ function update(selectedVar) {
 
     // X axis
     x.domain(data.map(function(d) { return d.business_type; }))
-    xAxis.transition().duration(1000).call(d3.axisBottom(x))
+    svg.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x))
+      .selectAll("text")
+      .attr("transform", "translate(-10,0)rotate(-15)")
+      .style("text-anchor", "end")
+      .style("font-size", 15)
+      .style("fill", "#1E119D");
+    // xAxis.transition().duration(1000).call(d3.axisBottom(x));
 
     // Add Y axis
     y.domain([0, d3.max(data, function(d) { return +d[selectedVar] }) ]);
     yAxis.transition().duration(1000).call(d3.axisLeft(y));
+
+  
+    
+    // // Y axis label:
+    // Svg.append("text")
+    // .attr("text-anchor", "end")
+    // .attr("transform", "rotate(-90)")
+    // .attr("y", -margin.left+20)
+    // .attr("x", -margin.top)
+    // .text("Number of Injuries")
+
 
     // variable u: map data to existing circle
     const j = svg.selectAll(".myLine")
@@ -53,7 +72,7 @@ function update(selectedVar) {
         .attr("x2", function(d) { return x(d.business_type); })
         .attr("y1", y(0))
         .attr("y2", function(d) { return y(d[selectedVar]); })
-        .attr("stroke", "grey")
+        .attr("stroke", "black")
 
 
     // variable u: map data to existing circle
@@ -63,12 +82,13 @@ function update(selectedVar) {
     u
       .join("circle")
       .transition()
-      .duration(1000)
+      .duration(2500)
         .attr("cx", function(d) { return x(d.business_type); })
         .attr("cy", function(d) { return y(d[selectedVar]); })
         .attr('fill-opacity', 0.6)
+        .attr('stroke', 'black')
         .attr("r", 16)
-        .attr("fill", "#4633ff");
+        .attr("fill", "#4633FF");
 
 
   })
