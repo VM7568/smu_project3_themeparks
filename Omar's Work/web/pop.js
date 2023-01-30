@@ -41,7 +41,7 @@ function update(selectedVar) {
       .attr("transform", "translate(-10,0)rotate(-15)")
       .style("text-anchor", "end")
       .style("font-size", 15)
-      .style("fill", "#1E119D");
+      .style("fill", "#2A9D8F");
     // xAxis.transition().duration(1000).call(d3.axisBottom(x));
 
     // Add Y axis
@@ -88,7 +88,7 @@ function update(selectedVar) {
         .attr('fill-opacity', 0.6)
         .attr('stroke', 'black')
         .attr("r", 16)
-        .attr("fill", "#4633FF");
+        .attr("fill", "#2A9D8F");
 
 
   })
@@ -97,14 +97,5 @@ function update(selectedVar) {
 
 // Initialize plot
 update('var1')
-
-
-
-
-
-
-
-
-
 
   // https://d3-graph-gallery.com/graph/lollipop_basic.html

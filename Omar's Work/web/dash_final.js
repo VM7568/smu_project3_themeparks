@@ -55,6 +55,8 @@ function makeLol(){
         .style("text-anchor", "end")
         .style("font-size", 15)
         .style("fill", "#1E119D");
+        
+        
         // xAxis.transition().duration(1000).call(d3.axisBottom(x));
 
         // Add Y axis
@@ -98,10 +100,10 @@ function makeLol(){
         .duration(2500)
             .attr("cx", function(d) { return x(d.business_type); })
             .attr("cy", function(d) { return y(d[selectedVar]); })
-            .attr('fill-opacity', 0.6)
+            .attr('fill-opacity', 0.8)
             .attr('stroke', 'black')
             .attr("r", 16)
-            .attr("fill", "#4633FF");
+            .attr("fill", "#2A9D8F");
 
 
     })
@@ -118,7 +120,7 @@ function makeBar() {
             x: data.filter(x => x.year == $("#selDataset").val()).map(x => x.device_category),
             y: data.filter(x => x.year == $("#selDataset").val()).map(x => +x.num_injured),
             marker: {
-                color: '#E76F51'
+                color: '#2A9D8F'
             },
             box: {
                 visible: true
@@ -133,9 +135,14 @@ function makeBar() {
     
         let traces = [trace]
         var layout = {
-            title: "Device Accidents",
+            title: "Device Accidents by Year",
             yaxis: {
-                zeroline: false
+                zeroline: false,
+                title: "Number of Accidents"
+            },
+            xaxis: {
+                title: "Device Type",
+            
             }
         }
     

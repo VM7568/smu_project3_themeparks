@@ -19,7 +19,7 @@ $(document).ready(function () {
             makeMap(data)
           }
           else{
-            makeMap(data)   // Using the features array sent back in the API data, create a GeoJSON layer, and add it to the map.
+            makeMap(data) 
           }
         });
   }
@@ -71,8 +71,8 @@ $(document).ready(function () {
   
     // STEP 4: INITIALIZE MAP
     let myMap = L.map("map", {
-      center: [32.6400541, -117.0841955],
-      zoom: 5,
+      center: [39.8283, -98.5795,],
+      zoom: 3.75,
       layers: [street, incidents]
     });
   

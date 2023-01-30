@@ -8,44 +8,36 @@
   <title>Theme Park Accidents Map</title>
 
   <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
-    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
 
   <!-- Leaflet JavaScript code -->
-  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
-    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
-    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
 
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/lumen/bootstrap.min.css"
-    crossorigin="anonymous">
-
-  <!-- D3 library -->
   <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.6.2/dist/lumen/bootstrap.min.css">
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
   <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster-src.js"></script>
 
+
+  <!-- D3 library -->
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+
   <!-- Our CSS -->
-  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
   <!-- JavaScript file  -->
-  <script type="text/javascript" src="web/leaflet.js"></script>
-  <script type="text/javascript" src="/map.js"></script>
+  <script type="text/javascript" src="leaflet.js"></script>
+  <script type="text/javascript" src="map.js"></script>
 
 </head>
 
@@ -53,30 +45,27 @@
   <!-- Start of navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 25px;">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Return to Main</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
-            aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarColor02">
-            <ul class="navbar-nav ml-auto">
-            
-
-            <li class="nav-item">
-                <a class="nav-link" href="data.html">Data</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="about.html">Meet our Team!</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="sources.html">Works Cited</a>
-            </li>
+      <a class="navbar-brand" href="index.html">Return to Main</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+        aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="map.html">Map</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">Meet our Team!</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sources.html">Works Cited</a>
+          </li>
         </ul>
-
-    </div>
-      </ul>
-
-    </div>
+      </div>
     </div>
   </nav>
   <!-- End of navbar -->
@@ -84,31 +73,65 @@
   <div class="container-fluid">
     <div class="row">
       <div style="background-color:#F4A261;" class="col-md-12 jumbotron text-center">
-        <h1>Roller Coaster Accidents Map</h1>
-        <p>Loctions of Theme Parks Across the United States</p>
+        <h1 id="main_header" class="header">Theme Park Accidents Map</h1>
+        <h4>Loctions of Theme Parks Accidents Across the United States</h4>
+        <br>
+        <h4 style="color:#264653;">Interact with the map below by using the Device Type filter to see the different accidents</h4> 
+        <h4 style="color:#264653;">Explore injury details by clicking on the markers</h4>         
+      
       </div>
     </div>
+
     <div class="row">
       <div class="col-md-2">
         <div class="well">
-          <h5>FILTER BOX OF FILTERS</h5>
+          <h5>Device Type:</h5>
           <select id="selDataset">
             <option>All</option>
-            <option>Family raft slide</option>
-            <option>Coaster - unidentified</option>
-            <option>Go-kart</option>
-            <option>Tube Slide</option>
-            <option>Track ride</option>
-            <option>Speed slide</option>
+            <option>Boat ride</option>
+            <option>Body slide</option>
+            <option>Bumper car</option>
             <option>Carousel</option>
+            <option>Coaster - steel</option>
             <option>Coaster - wooden</option>
+            <option>Coaster - family\/kiddie</option>
+            <option>Coaster - unidentified</option>
+            <option>Drop tower</option>
+            <option>Family raft slide</option>
+            <option>Flipping platform</option>
+            <option>Flume ride</option>
+            <option>Go-kart</option>
+            <option>Himalaya-type</option>
+            <option>Lazy river</option>
+            <option>Mat slide</option>
+            <option>Plane\/jet\/helicopter</option>
+            <option>Play structure</option>
+            <option>Rafting ride</option>
+            <option>Rotor\/gravitron</option>
+            <option>Roundabout</option>
+            <option>Shoot the chute</option>
+            <option>Simulator</option>
+            <option>Sizzler\/scrambler</option>
+            <option>Speed slide</option>
+            <option>Spinning cups\/tubs</option>
+            <option>Spinning pendulum</option>
+            <option>Swing ride</option>
+            <option>Trabant</option>
+            <option>Track ride</option>
+            <option>Train\/tram</option>
+            <option>Tornado-type</option>
+            <option>Tube Slide</option>
+            <option>Water coaster</option>
+            <option>Water slide - undefined</option>
+            <option>Wave pool</option>
           </select>
         </div>
       </div>
       <div class="col-md-10">
-        <button type="button" class="btn btn-primary" id="filter">Filter!</button>
+        <button type="button" class="btn btn-primary" id="filter"> Filter! </button>
       </div>
     </div>
+
     <div class="row">
       <div class="col-md-12">
         <div id="mapContainer">
