@@ -55,6 +55,8 @@ function makeLol(){
         .style("text-anchor", "end")
         .style("font-size", 15)
         .style("fill", "#1E119D");
+        
+        
         // xAxis.transition().duration(1000).call(d3.axisBottom(x));
 
         // Add Y axis
@@ -133,9 +135,14 @@ function makeBar() {
     
         let traces = [trace]
         var layout = {
-            title: "Device Accidents",
+            title: "Device Accidents by Year",
             yaxis: {
-                zeroline: false
+                zeroline: false,
+                title: "Number of Accidents"
+            },
+            xaxis: {
+                title: "Device Type",
+            
             }
         }
     
