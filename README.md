@@ -1,7 +1,7 @@
 # smu_project3_themeparks
 
-https://vm7568.github.io/smu_project3_themeparks/Omars%20Work/web/index.html
+[Theme Park Accidents Website](https://vm7568.github.io/smu_project3_themeparks/Omars%20Work/web/index.html)
 
-Project 3 - Group 1 Theme Park Accidents
+Project 3 - Group 1
 
-SMU Data Science Bootcamp Project 3 
+SMU Data Science Bootcamp September 2022 - March 2023
