@@ -4,4 +4,4 @@
 
 Project 3 - Group 1
 
-SMU Data Science Bootcamp September 2022 - March 2023
+SMU Data Science & Visualization Course September 2022 - March 2023
